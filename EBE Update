@@ -1,0 +1,27 @@
+#EBEUpdate May 6th 2026
+
+Over the past week, I have been engaged in the design, migration, troubleshooting, and operational management of a home-based hybrid virtualization and cybersecurity lab environment intended to simulate enterprise infrastructure conditions. This work involved deploying new hardware, rebuilding and migrating virtual machine environments, integrating secure remote access capabilities, and improving system automation and endpoint management.
+
+The project required the practical application of systems administration, networking, virtualization, troubleshooting, and security concepts across both Linux and Windows environments.
+
+The server itself is a Lenovo ThinkStation with an Intel Xeon E3-1225 v5 @ 3.30 GHz and 16GB of RAM. A discrete GPU with 8GB of memory was added, along with two refurbished 2TB hard drives. All hardware was procured via a second-hand marketplace (Wallapop) under a strict budget constraint, with total expenditure under €200.
+
+At a high level, the work focused on standing up and configuring a dedicated virtualization host using VMware ESXi as a bare-metal hypervisor. This involved transitioning from a fragmented local virtualization workflow into a centralized infrastructure model where multiple virtual machines are managed from a single host system.
+
+The objective was to build a scalable lab architecture capable of supporting cybersecurity experimentation, system administration practice, network services, and future cloud-integrated workloads.
+
+Key responsibilities and technical activities included:
+
+Virtualization Infrastructure Deployment and Migration. Installed and configured VMware ESXi as the primary hypervisor. Migrated existing Linux and Windows virtual machines from prior local environments into the new ESXi datastore. Troubleshot VM import and migration issues including virtual disk incompatibilities, corrupted or unsupported disk formats, and manual VM registration using VMX files. Reconstructed VM definitions where required when importing existing disks into newly created virtual machines. Validated VM boot integrity and restored operational access after migration failures. This required practical understanding of hypervisor architecture, VM lifecycle management, virtual disk provisioning, storage management, and infrastructure portability.
+
+Network Configuration and Secure Remote Administration. Established network connectivity between administrative Linux systems, virtual machines, and the ESXi host. Configured remote access pathways for both browser-based and command-line management. Validated internal network reachability and HTTPS management endpoints. Implemented secure remote access using Tailscale to enable encrypted external connectivity into the lab. This exercised VPN and overlay networking concepts, secure administration, segmentation and trust boundary design, reduction of management plane exposure, and service accessibility validation.
+
+Windows and Linux Systems Administration. Performed troubleshooting across Windows Server and Windows client VMs to resolve operational issues. Diagnosed and corrected problems including clipboard and copy/paste failures between host and guest systems, VMware Tools integration issues, and network stack inconsistencies including DNS cache flushing and network registration refresh. Used Linux administrative environments for infrastructure management, scripting, file transfer, and command-line operations. This reinforced cross-platform administration, guest-host dependency troubleshooting, driver and integration debugging, and operational support across Windows and Linux systems.
+
+Automation and Persistence Engineering. Built lightweight automation workflows for persistent background task execution in Windows environments. Implemented startup and login persistence mechanisms for scripts and scheduled processes. Managed execution contexts to ensure tasks ran reliably and without user intervention. Concepts included task scheduling, persistence mechanisms, system versus user context execution, and basic endpoint automation.
+
+Command-Line Data Acquisition and Workflow Automation. Used Linux shell scripting to automate bulk acquisition of document collections and research archives. Built command pipelines for parsing identifiers, downloading large file sets, and processing text and PDF datasets. Improved efficiency in repeatable CLI workflows. Skills included Bash scripting, pipeline construction, bulk file operations, and OSINT-adjacent data acquisition workflows.
+
+Overall, the project demonstrates competency in virtualization administration, infrastructure migration, systems troubleshooting, remote access engineering, Linux and Windows systems administration, and automation. It reflects the ability to independently design and operationalize a multi-system environment approximating a small-scale enterprise lab.
+
+It also demonstrates problem-solving under ambiguous conditions, including diagnosing undocumented issues, recovering failed systems, rebuilding configurations, and iteratively improving stability. The resulting environment now consists of a centralized virtualization platform, administrative Linux nodes, Windows systems, secure remote access, and a foundational architecture for future cloud integration and cybersecurity experimentation.
