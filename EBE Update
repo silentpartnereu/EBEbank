@@ -1,5 +1,6 @@
-# EBEbank
+# EBEbank Update May 6th 2026
 # EBE – Security-First European Banking Infrastructure
+
 Over the past week, I have been engaged in the design, migration, troubleshooting, and operational management of a home-based hybrid virtualization and cybersecurity lab environment intended to simulate enterprise infrastructure conditions. This work involved deploying new hardware, rebuilding and migrating virtual machine environments, integrating secure remote access capabilities, and improving system automation and endpoint management.
 
 The project required the practical application of systems administration, networking, virtualization, troubleshooting, and security concepts across both Linux and Windows environments.
