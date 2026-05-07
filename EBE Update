@@ -17,9 +17,12 @@ Virtualization Infrastructure Deployment and Migration. Installed and configured
 
 Network Configuration and Secure Remote Administration. Established network connectivity between administrative Linux systems, virtual machines, and the ESXi host. Configured remote access pathways for both browser-based and command-line management. Validated internal network reachability and HTTPS management endpoints. Implemented secure remote access using Tailscale to enable encrypted external connectivity into the lab. This exercised VPN and overlay networking concepts, secure administration, segmentation and trust boundary design, reduction of management plane exposure, and service accessibility validation.
 
+
 Windows and Linux Systems Administration. Performed troubleshooting across Windows Server and Windows client VMs to resolve operational issues. Diagnosed and corrected problems including clipboard and copy/paste failures between host and guest systems, VMware Tools integration issues, and network stack inconsistencies including DNS cache flushing and network registration refresh. Used Linux administrative environments for infrastructure management, scripting, file transfer, and command-line operations. This reinforced cross-platform administration, guest-host dependency troubleshooting, driver and integration debugging, and operational support across Windows and Linux systems.
 
+
 Automation and Persistence Engineering. Built lightweight automation workflows for persistent background task execution in Windows environments. Implemented startup and login persistence mechanisms for scripts and scheduled processes. Managed execution contexts to ensure tasks ran reliably and without user intervention. Concepts included task scheduling, persistence mechanisms, system versus user context execution, and basic endpoint automation.
+
 
 Command-Line Data Acquisition and Workflow Automation. Used Linux shell scripting to automate bulk acquisition of document collections and research archives. Built command pipelines for parsing identifiers, downloading large file sets, and processing text and PDF datasets. Improved efficiency in repeatable CLI workflows. Skills included Bash scripting, pipeline construction, bulk file operations, and OSINT-adjacent data acquisition workflows.
 
